@@ -1,0 +1,5 @@
+# Dependencias para correr SearXNG con uvicorn en Windows (sin Docker)
+-r requirements.txt
+uvicorn
+a2wsgi   # adaptador WSGI (Flask) -> ASGI (uvicorn)
+tzdata   # Windows no trae la base de zonas horarias IANA
